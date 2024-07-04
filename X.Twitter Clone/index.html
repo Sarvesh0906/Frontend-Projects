@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="./css/output.css" rel="stylesheet">
+</head>
+
+<body class="flex mx-auto bg-black text-white">
+
+    <div class="flex md:container mx-auto md:mx-[135px] relative">
+        <div class="first w-16 md:w-[40%]">
+
+            <div class="sidebar h-[100vh] flex flex-col sticky top-0">
+
+                <div class="logo p-3 self-start hover:bg-cGray cursor-pointer hover:rounded-full">
+                    <img class="w-8 invert" src="img/logo.svg" alt="X">
+                </div>
+
+                <ul class="flex flex-col text-xl">
+                    <li
+                        class="flex p-2 font-bold md:justify-start items-center gap-6 py-3 w-[55%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <img class="invert w-6" src="img/home.svg" alt="home">
+                        <span class="hidden md:block">Home</span>
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[60%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            search
+                        </span>
+                        <span class="hidden md:block">Explore</span>
+
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[78%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            notifications
+                        </span>
+                        <span class="hidden md:block">Notifications</span>
+
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[70%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            mail
+                        </span>
+                        <span class="hidden md:block">Messages</span>
+
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[50%] py-3 hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <img class="invert w-7" src="img/grok.svg" alt="home">
+
+                        <span class="hidden md:block">Grok</span>
+                        <!-- <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[65%] py-3 hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <img class="w-7 invert" src="img/logo.svg" alt="X">
+                        
+                        <span class="hidden md:block">Premium</span>
+                    </li> -->
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[50%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            list_alt
+                        </span>
+
+                        <span class="hidden md:block">Lists</span>
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[70%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            bookmark
+                        </span>
+
+                        <span class="hidden md:block">Bookmarks</span>
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[78%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            groups
+                        </span>
+
+                        <span class="hidden md:block">Communities</span>
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[65%] py-3 hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <img class="w-7 invert" src="img/logo.svg" alt="X">
+
+                        <span class="hidden md:block">Premium</span>
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[55%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            person
+                        </span>
+
+                        <span class="hidden md:block">Profile</span>
+                    </li>
+                    <li
+                        class="flex p-2 md:justify-start items-center gap-5 w-[50%] hover:bg-cGray cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">
+                            pending
+                        </span>
+
+                        <span class="hidden md:block">More</span>
+                    </li>
+                </ul>
+
+                <button
+                    class="rounded-full bg-cBlue px-4 py-3 text-[18px] font-bold mr-8 my-2 transition-all hover:bg-opacity-80">Post</button>
+
+                <div
+                    class="user flex items-center absolute bottom-3 justify-between cursor-pointer px-4 py-2 hover:bg-cGray hover:bg-opacity-50 hover:rounded-full mt-2 w-[95%]">
+
+                    <div class="flex gap-[10px] items-center">
+                        <img class="w-10 h-10" src="img/user_icon.png" alt="photo">
+
+                        <div>
+                            <div class="font-bold">User</div>
+                            <div class="text-[15px] text-gray-cText">@username</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="material-symbols-outlined p-1">
+                            more_horiz
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="second w-[90%] border border-white border-opacity-20 relative top-0">
+
+            <div
+                class="top flex border-b border-white border-opacity-20 cursor-pointer sticky top-0 backdrop-blur-sm z-10">
+                <div class="absolute w-14 h-1 bg-cBlue bottom-0 left-[20.5%] rounded-full z-10"></div>
+
+                <div class="left w-1/2 text-center p-4 hover:bg-cGray hover:bg-opacity-50 font-bold transition-all">
+                    For
+                    you</div>
+
+                <div class="left w-1/2 text-center p-4 hover:bg-cGray hover:bg-opacity-50 transition-all">Following
+                </div>
+            </div>
+
+            <div class="main flex p-4 border-b border-white border-opacity-20 pb-3">
+                <img class="w-11 h-11" src="img/user_icon.png" alt="photo">
+
+                <div class="w-full">
+                    <input class="bg-transparent py-1 text-[20px] w-full text-gray-cText opacity-70 ml-3" type="text"
+                        placeholder="What is happening?!">
+
+                    <div
+                        class="text-cBlue w-fit text-sm flex items-center gap-1 px-[14px] my-3 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full">
+                        <span class="material-symbols-outlined text-base">
+                            globe_asia
+                        </span>
+                        <span class="font-bold cursor-pointer">Everyone can reply</span>
+                    </div>
+
+                    <hr class=" border-white border-opacity-20">
+
+                    <div class="flex justify-between mt-3">
+
+                        <div class="flex flex-wrap">
+                            <div class="w-16"></div>
+                            <span
+                                class="material-symbols-outlined w-full text-center text-cBlue text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-1 cursor-pointer">
+                                imagesmode
+                            </span>
+                            <span
+                                class="material-symbols-outlined w-full text-center text-cBlue text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-1 cursor-pointer">
+                                gif_box
+                            </span>
+                            <span
+                                class="material-symbols-outlined scale-x-[-1] w-full text-center text-cBlue text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-1 cursor-pointer">
+                                event_list
+                            </span>
+                            <span
+                                class="material-symbols-outlined w-full text-center text-cBlue text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-1 cursor-pointer">
+                                mood
+                            </span>
+                            <span
+                                class="material-symbols-outlined w-full text-center text-cBlue text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-1 cursor-pointer">
+                                calendar_clock
+                            </span>
+                            <span
+                                class="material-symbols-outlined w-full text-center text-cBlue text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-1 cursor-pointer opacity-50">
+                                location_on
+                            </span>
+                        </div>
+
+                        <button
+                            class="rounded-full bg-cBlue px-4 py-[6px] font-bold transition-all opacity-70 hover:bg-opacity-80">Post</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50 transition-all">
+                <div class="text-cBlue text-center">Show 805 posts</div>
+            </div>
+
+            <hr class="border-white border-opacity-20">
+
+            <div class="posts">
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3" src="img/user_icon.png" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">Times Algebra</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@TimesAlgebraIND ·
+                                            3h</span>
+                                    </div>
+                                    <div>SHOCKING NUMBERS OF 🚨 Today's Chanakya Exit Poll --</div>
+                                </div>
+
+                                <div>
+                                    <div class="mt-4">TELANGANA -</div>
+                                    <div>BJP : 12</div>
+                                    <div>INC : 5</div>
+                                    <div>MIM : 0</div>
+                                    <div>BRS : 0</div>
+
+                                    <div class="mt-4">ODISHA -</div>
+                                    <div>BJP : 16</div>
+                                    <div class="text-cBlue hover:underline">Show more</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>1.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>572</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>8.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>1.1M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class=" border-white border-opacity-20">
+
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3 rounded-full" src="img/user2.jpg" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">GTA 6
+                                            Countdown</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@GTAVI_Countdown ·
+                                            23h</span>
+                                    </div>
+                                    <div class="size-[15px] w-full h-fit">GTA 7 has been acknowledged for the first
+                                        time
+                                        by Rockstar’s parent company, Take-Two during an interview.</div>
+                                </div>
+
+                                <div>
+                                    <img class="rounded-2xl mt-3 border-white border-opacity-20" src="img/post_img.jpeg"
+                                        alt="post_img">
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>5.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>4K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>68.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>12M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <hr class="border-white border-opacity-20">
+
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3" src="img/user_icon.png" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">Times Algebra</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@TimesAlgebraIND ·
+                                            3h</span>
+                                    </div>
+                                    <div>SHOCKING NUMBERS OF 🚨 Today's Chanakya Exit Poll --</div>
+                                </div>
+
+                                <div>
+                                    <div class="mt-4">TELANGANA -</div>
+                                    <div>BJP : 12</div>
+                                    <div>INC : 5</div>
+                                    <div>MIM : 0</div>
+                                    <div>BRS : 0</div>
+
+                                    <div class="mt-4">ODISHA -</div>
+                                    <div>BJP : 16</div>
+                                    <div class="text-cBlue hover:underline">Show more</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>1.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>572</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>8.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>1.1M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="border-white border-opacity-20">
+
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3 rounded-full" src="img/user2.jpg" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">GTA 6
+                                            Countdown</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@GTAVI_Countdown ·
+                                            23h</span>
+                                    </div>
+                                    <div class="size-[15px] w-full h-fit">GTA 7 has been acknowledged for the first
+                                        time
+                                        by Rockstar’s parent company, Take-Two during an interview.</div>
+                                </div>
+
+                                <div>
+                                    <img class="rounded-2xl mt-3 border-white border-opacity-20" src="img/post_img.jpeg"
+                                        alt="post_img">
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>5.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>4K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>68.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>12M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <hr class="border-white border-opacity-20">
+
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3" src="img/user_icon.png" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">Times Algebra</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@TimesAlgebraIND ·
+                                            3h</span>
+                                    </div>
+                                    <div>SHOCKING NUMBERS OF 🚨 Today's Chanakya Exit Poll --</div>
+                                </div>
+
+                                <div>
+                                    <div class="mt-4">TELANGANA -</div>
+                                    <div>BJP : 12</div>
+                                    <div>INC : 5</div>
+                                    <div>MIM : 0</div>
+                                    <div>BRS : 0</div>
+
+                                    <div class="mt-4">ODISHA -</div>
+                                    <div>BJP : 16</div>
+                                    <div class="text-cBlue hover:underline">Show more</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>1.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>572</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>8.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>1.1M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class=" border-white border-opacity-20">
+
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3 rounded-full" src="img/user2.jpg" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">GTA 6
+                                            Countdown</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@GTAVI_Countdown ·
+                                            23h</span>
+                                    </div>
+                                    <div class="size-[15px] w-full h-fit">GTA 7 has been acknowledged for the first
+                                        time
+                                        by Rockstar’s parent company, Take-Two during an interview.</div>
+                                </div>
+
+                                <div>
+                                    <img class="rounded-2xl mt-3 border-white border-opacity-20" src="img/post_img.jpeg"
+                                        alt="post_img">
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>5.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>4K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>68.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>12M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <hr class="border-white border-opacity-20">
+
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3" src="img/user_icon.png" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">Times Algebra</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@TimesAlgebraIND ·
+                                            3h</span>
+                                    </div>
+                                    <div>SHOCKING NUMBERS OF 🚨 Today's Chanakya Exit Poll --</div>
+                                </div>
+
+                                <div>
+                                    <div class="mt-4">TELANGANA -</div>
+                                    <div>BJP : 12</div>
+                                    <div>INC : 5</div>
+                                    <div>MIM : 0</div>
+                                    <div>BRS : 0</div>
+
+                                    <div class="mt-4">ODISHA -</div>
+                                    <div>BJP : 16</div>
+                                    <div class="text-cBlue hover:underline">Show more</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>1.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>572</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>8.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>1.1M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="border-white border-opacity-20">
+
+                <div class="post flex hover:bg-cGray hover:bg-opacity-50 transition-all cursor-pointer">
+                    <img class="w-11 h-11 ml-4 mt-3 rounded-full" src="img/user2.jpg" alt="photo">
+
+                    <div class="w-full mt-2">
+                        <div class="flex justify-between mx-3">
+                            <div>
+                                <div>
+                                    <div class="flex gap-1">
+                                        <span class="font-bold cursor-pointer hover:underline">GTA 6
+                                            Countdown</span>
+                                        <img class="w-5" src="img/verified.svg" alt="tick">
+                                        <span class="text-[15px] cursor-pointer text-gray-cText">@GTAVI_Countdown ·
+                                            23h</span>
+                                    </div>
+                                    <div class="size-[15px] w-full h-fit">GTA 7 has been acknowledged for the first
+                                        time
+                                        by Rockstar’s parent company, Take-Two during an interview.</div>
+                                </div>
+
+                                <div>
+                                    <img class="rounded-2xl mt-3 border-white border-opacity-20" src="img/post_img.jpeg"
+                                        alt="post_img">
+                                </div>
+                            </div>
+
+                            <div>
+                                <span
+                                    class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="flex opacity-50 my-2">
+                            <div class="btn flex justify-between mx-3 w-full">
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-xl text-center hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        chat_bubble
+                                    </span>
+                                    <span>5.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cGreen">
+                                    <span
+                                        class="material-symbols-outlined rotate-90 text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        repeat
+                                    </span>
+                                    <span>4K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cRed">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                        favorite
+                                    </span>
+                                    <span>68.2K</span>
+                                </div>
+
+                                <div class="flex items-center hover:text-cBlue">
+                                    <span
+                                        class="material-symbols-outlined text-center text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span>12M</span>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center hover:text-cBlue text-xl hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full p-[1px] h-[28px] w-[28px]">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span
+                                            class="material-symbols-outlined text-center text-xl hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-full h-[28px] w-[28px]">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <hr class="border-white border-opacity-20">
+            </div>
+        </div>
+
+        <div class="third md:w-[55%] px-7">
+
+            <div class="flex flex-col status mb-20 w-[330px]">
+
+                <div class="sticky top-0 py-2 bg-black z-10">
+                    <div class="search flex items-center gap-4 w-full rounded-full bg-cGray text-white px-4 py-[10px]">
+                        <span class="opacity-30 material-symbols-outlined">
+                            search
+                        </span>
+                        <input type="text" class="bg-cGray w-full" placeholder="Search">
+                    </div>
+                </div>
+
+                <div class="subs my-4 border border-white border-opacity-20 w-full rounded-2xl">
+                    <h1 class="text-xl font-bold px-4 py-3">Subscribe to Premium</h1>
+                    <div class="px-4">Subscribe to unlock new features and if eligible, receive a share of ads revenue.
+                    </div>
+                    <button
+                        class="rounded-full bg-cBlue px-4 py-[6px] font-bold mx-4 my-3 transition-all hover:bg-opacity-80">Subscribe</button>
+                </div>
+
+                <div class="whats my-4 border border-white border-opacity-20 w-full rounded-2xl">
+                    <h1 class="text-xl font-bold px-4 py-3">What's Happening</h1>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div>
+                            <div class="text-[13px] text-gray-cText">Trending in India</div>
+                            <div class="font-bold">#ElectionResults</div>
+                            <div class="text-[13px] text-gray-cText">86.4K Posts</div>
+                        </div>
+                        <div>
+                            <span
+                                class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div>
+                            <div class="text-[13px] text-gray-cText">Trending in India</div>
+                            <div class="font-bold">#ElvishYadav</div>
+                            <div class="text-[13px] text-gray-cText">40.2K Posts</div>
+                        </div>
+                        <div>
+                            <span
+                                class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div>
+                            <div class="text-[13px] text-gray-cText">Trending in India</div>
+                            <div class="font-bold">#scandal</div>
+                            <div class="text-[13px] text-gray-cText">15.5K Posts</div>
+                        </div>
+                        <div>
+                            <span
+                                class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div>
+                            <div class="text-[13px] text-gray-cText">Trending in India</div>
+                            <div class="font-bold">#SamanthaRuthPrabhu</div>
+                            <div class="text-[13px] text-gray-cText">2,819 Posts</div>
+                        </div>
+                        <div>
+                            <span
+                                class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div>
+                            <div class="text-[13px] text-gray-cText">Entertainment · Trending</div>
+                            <div class="font-bold">#MalaikaArora</div>
+                            <div class="text-[13px] text-gray-cText">Trending with <span
+                                    class="text-cBlue hover:underline">#heatstroke</span>, <span
+                                    class="text-cBlue hover:underline">#nautanki</span></div>
+                        </div>
+                        <div>
+                            <span
+                                class="opacity-30 material-symbols-outlined hover:text-cBlue hover:opacity-100 hover:bg-cBlue hover:bg-opacity-20 hover:rounded-[50%] p-1">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50 hover:rounded-b-2xl">
+                        <div class="text-cBlue">Show More</div>
+                    </div>
+
+                </div>
+
+                <div class="todo my-4 border border-white border-opacity-20 w-full rounded-2xl">
+                    <h1 class="text-xl font-bold px-4 py-3">Who to follow</h1>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div class="flex gap-2">
+                            <img class="w-12 rounded-sm hover:opacity-80" src="img/playStation.jpg" alt="playStation">
+                            <div>
+                                <span class="flex gap-1 hover:underline">PlayStation<img class="w-5"
+                                        src="img/verified.svg" alt="tick"></span>
+                                <span class="text-gray-cText">@PlayStation</span>
+                            </div>
+                        </div>
+                        <div>
+                            <button
+                                class="rounded-full bg-white text-black px-4 py-1 font-semibold hover:opacity-80">Follow</button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div class="flex gap-2">
+                            <img class="w-12 rounded-sm hover:opacity-80" src="img/amiami.jpg" alt="playStation">
+                            <div>
+                                <span class="flex gap-1 hover:underline">AmiAmi English<img class="w-5"
+                                        src="img/verified.svg" alt="tick"></span>
+                                <span class="text-gray-cText">@AmiAmi_English</span>
+                            </div>
+                        </div>
+                        <div>
+                            <button
+                                class="rounded-full bg-white text-black px-4 py-1 font-semibold hover:opacity-80">Follow</button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="item flex items-center justify-between cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50">
+                        <div class="flex gap-2">
+                            <img class="w-12 rounded-sm hover:opacity-80" src="img/crunchyroll.jpg" alt="playStation">
+                            <div>
+                                <span class="flex gap-1 hover:underline">Crunchyroll Games<img class="w-5"
+                                        src="img/verified.svg" alt="tick"></span>
+                                <span class="text-gray-cText">@playCRgames</span>
+                            </div>
+                        </div>
+                        <div>
+                            <button
+                                class="rounded-full bg-white text-black px-4 py-1 font-semibold hover:opacity-80">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="item cursor-pointer px-4 py-3 hover:bg-cGray hover:bg-opacity-50 hover:rounded-b-2xl">
+                        <div class="text-cBlue">Show More</div>
+                    </div>
+
+                </div>
+
+                <div class="footer px-5 w-full">
+                    <ul class="flex flex-wrap text-[13px] text-gray-cText">
+                        <li class="mr-3 cursor-pointer hover:underline">Terms of Service</li>
+                        <li class="mr-3 cursor-pointer hover:underline">Privacy Policy</li>
+                        <li class="mr-3 cursor-pointer hover:underline">Cookie Policy</li>
+                        <li class="mr-3 cursor-pointer hover:underline">Accessibility</li>
+                        <li class="mr-3 cursor-pointer hover:underline">Ads info</li>
+                        <li class="mr-3 cursor-pointer hover:underline">More...</li>
+                        <li>&copy; 2024 X Corp.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        // Add an event listener to the window scroll event
+        window.addEventListener('scroll', function () {
+            // Get the scroll position along the y-axis
+            let scrollPosition = window.scrollY || window.pageYOffset;
+
+            // Check if the scroll position is greater than or equal to 150vh
+            if (scrollPosition >= window.innerHeight * 0.7) {
+                // If it is, change the status to sticky
+                let status = document.getElementsByClassName('status')[0];
+                status.style.position = 'fixed';
+                status.style.bottom = '0';
+            } else {
+                // Otherwise, keep it as relative
+                let status = document.getElementsByClassName('status')[0];
+                status.style.position = 'relative';
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
